@@ -1,5 +1,5 @@
 class UserSessionsController < ApplicationController
-    before_filter
+
     def new
     end
 
