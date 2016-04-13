@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
-  before_filter :zero_users_or_authenticated, only: [:new, :create]
+
   before_filter :require_login, except: [:new, :create]
 
   # GET /users
@@ -12,6 +12,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+
   end
 
   # GET /users/new
@@ -63,14 +64,7 @@ class UsersController < ApplicationController
     end
   end
 
-  def zero_users_or_authenticated
 
-    unless User.count == 0 || current_user
-        redirect_to root_path
-        return false
-    end
-
-  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
