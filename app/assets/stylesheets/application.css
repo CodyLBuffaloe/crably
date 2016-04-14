@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+html{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+.title{
+
+    height:50px;
+    background-color:#3a5795;
+    padding:0px;
+    position: absolute;
+    top:0;
+    width: 100%;
+    margin:0px;
+    border:0px;
+}
+
+body{
+    margin:0px;
+}
+
+.nav{
+    height:100%;
+    width:75px;
+    background-color:#3a5795;
+    left:0px;
+    position:absolute;
+    top:40px;
+    bottom:0px;
+}
+
+.field, .actions{
+    margin-left:125px;
+}
+
+.nav_link{
+    background: 1px dimgray;
+    width: 75px;
+    height:20px;
+    margin-top:200px;
+    text-align: center;
+
+
+}
