@@ -58,12 +58,16 @@ table#users{
     margin-left:125px;
 }
 
+.nav_box{
+    margin-top:200px;
+}
+
 .nav_link{
     background: 1px dimgray;
     border: ridge;
     width: 70px;
     height:20px;
-    margin-top:200px;
+
     text-align: center;
 
 

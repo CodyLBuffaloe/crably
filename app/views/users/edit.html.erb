@@ -1,6 +1,19 @@
+<div class="title"></div>
+
 <h1>Editing User</h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path %>
+
+
+<div class="nav">
+    <div class="nav_box">
+        <div class="nav_link">
+            <%= link_to "Back", users_path %>
+        </div>
+        <div class="nav_link">
+            <%= link_to 'Show', @user %>
+        </div>
+    </div>
+
+</div>
