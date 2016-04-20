@@ -1,8 +1,9 @@
+<div class="title"></div>
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Users</h1>
 
-<table>
+
+<table id="users">
   <thead>
     <tr>
       <th>Username</th>
@@ -27,3 +28,10 @@
 <br>
 
 <%= link_to 'New User', new_user_path %>
+<div class="nav">
+
+  <div class="nav_link">
+    <%= link_to "Back", users_path %>
+  </div>
+
+</div>

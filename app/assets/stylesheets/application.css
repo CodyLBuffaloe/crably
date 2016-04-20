@@ -34,6 +34,16 @@ body{
     margin:0px;
 }
 
+table#users{
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    width: 70%;
+
+
+}
+
 .nav{
     height:100%;
     width:75px;
@@ -50,7 +60,8 @@ body{
 
 .nav_link{
     background: 1px dimgray;
-    width: 75px;
+    border: ridge;
+    width: 70px;
     height:20px;
     margin-top:200px;
     text-align: center;
