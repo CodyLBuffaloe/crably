@@ -72,3 +72,11 @@ table#users{
 
 
 }
+
+.user_box{
+
+    margin-left: 120px;
+    margin-top: 200px;
+    text-align: left;
+
+}

@@ -1,5 +1,8 @@
+<div class="title"></div>
+
 <p id="notice"><%= notice %></p>
 
+<div class="user_box">
 <p>
   <strong>Username:</strong>
   <%= @user.username %>
@@ -9,8 +12,17 @@
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
+</div>
 
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
+<div class="nav">
+  <div class="nav_box">
+    <div class="nav_link">
+      <%= link_to 'Edit', edit_user_path(@user) %>
+    </div>
+    <div class="nav_link">
+      <%= link_to "Back", users_path %>
+    </div>
+  </div>
 
-<%= link_to 'Back', users_path %>
+</div>
