@@ -44,6 +44,13 @@ table#users{
 
 }
 
+.login_box{
+
+    margin-left: 150px;
+    position: absolute;
+    bottom:0px;
+}
+
 .nav{
     height:100%;
     width:75px;
